@@ -32,6 +32,7 @@ const initialData = [
   }
 ];
 
+
 function App() {
   const [data, setData] = useState(initialData);
   const [selectedId, setSelectedId] = useState(2);
