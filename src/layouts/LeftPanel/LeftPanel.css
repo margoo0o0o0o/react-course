@@ -1,0 +1,26 @@
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  min-width: 280px;
+  min-height: 100vh;
+  padding: 24px 12px 20px;
+  border-right: 2px solid #3434a6;
+  background: #191919;
+}
+
+@media (max-width: 760px) {
+  .left-panel {
+    width: 100%;
+    min-width: 0;
+    min-height: auto;
+    border-right: 0;
+    border-bottom: 1px solid #3434a6;
+    padding: 20px 14px;
+  }
+
+  .journal-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  }
+}

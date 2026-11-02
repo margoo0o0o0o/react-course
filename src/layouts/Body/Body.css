@@ -1,0 +1,7 @@
+.body {
+  flex: 1;
+  min-width: 0;
+  min-height: 100vh;
+  padding: 26px 34px 34px;
+  background: #171717;
+}
